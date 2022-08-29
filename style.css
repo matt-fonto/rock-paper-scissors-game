@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+/* Universal Styles */
+*{
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #291749;
+    color: aliceblue;
+}
+
+/* Section 1: Display */
+.display{
+    text-align: center;
+}
+
+.display .choices{
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.display h1{
+    margin-top: 5rem;
+}
+
+.display h2{
+    margin: 2rem 0;
+}
+
+.display #sub-title{
+    color: #800080;
+}
+
+.display .choices{
+    display: inline-block;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    width: 86%;
+    height: 40vh;
+    margin-bottom: 2rem;
+}
+
+/* Section 2: Buttons */
+.btn-game{
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.btn-game button{
+    border-radius: 5px;
+    border: transparent;
+}
+
+.btn-game button:hover{
+    box-shadow: -5px 5px aliceblue;
+    transition: .5s;
+}
+
+.btn-game img{
+    height: 250px;
+}
